@@ -1,0 +1,39 @@
+* {
+  border: 1px solid red;
+  margin: auto 0;
+  padding: auto 0;
+}
+
+body {
+  background-color: rgb(115, 115, 115);
+}
+
+main {
+  display: inline;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.pets {
+  display: inline-block;
+  width: 350px;
+  background-color: antiquewhite;
+}
+
+img {
+  max-width: 300px;
+  padding: 10px 30px 50px 70px;
+  background-color: black;
+  border: 3px double purple;
+  margin: 10px;
+}
+
+/* CSS 
+1. all borders
+2. top and bottom
+3. top bottom and width
+4. top bottom left right */
