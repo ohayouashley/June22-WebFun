@@ -1,0 +1,26 @@
+h1 {
+  color: deepskyblue;
+  background-color: black;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: white;
+  background-color: mediumpurple;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  background-color: lightblue;
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+  text-decoration: underline;
+  font-weight: lighter;
+}
+
+.mycolor {
+  color: white;
+}
