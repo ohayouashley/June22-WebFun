@@ -354,3 +354,86 @@ absolutely positioned elements
 inline-block elements
 elements with overflow property set to anything other than visible (They do not collapse margins with their children.)
 cleared elements (They do not collapse their top margins with their parent block’s bottom margin.)
+
+********
+
+INLINE AND BLOCK
+
+ - Some elements allow other elements next to them and others take all the space next to them regardless of 
+ how much content they have.
+
+ - The ones that take up all the space are called "block" and the ones that share the space are called "inline".
+
+ HTML
+
+some block elements
+
+<h1>Hello World</h1>
+<h2>Goodbye World</h2>
+
+some inline elements
+
+<label>First Name:</label>
+<input type="text" name="first_name">
+<label>Last Name:</label>
+<input type="text" name="last_name">
+
+CSS
+
+h1, h2 {
+    display: inline;
+    background-color: cyan;
+}
+label, input {
+    display: block;
+}
+
+INLINE - BLOCK
+
+-If you want to change the width and allow elements to be next to each other 
+you can use "inline-block".
+
+h1, h2 {
+    display: inline-block;
+    background-color: cyan;
+    width: 200px; /* this will work! */
+}
+
+
+- this is a great way to create columns in our code as well.
+HTML
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+
+CSS
+p {
+  display: inline-block;
+  width: 160px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: lightcyan;
+  margin: 10px;
+}
+
+- Ensure that the width of each individual column is narrow enough they will 
+fit within their parent element. Often a div or body tage. Just applying inline-block won't
+ensure the elements are the size you want.
+HTML
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quas quis, nemo dicta explicabo modi amet tenetur corrupti iste ducimus, aut totam.</p>
+
+CSS
+
+p {
+  display: inline-block;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: lightgreen;
+  margin: 10px;
+}
+
+- you need to use vertical-align property to make sure the behavior for inline-block doesn't mess up your work.
+
+-If you have elements that are traditionally inline and you want to change them to block elements, you can by using display:block
