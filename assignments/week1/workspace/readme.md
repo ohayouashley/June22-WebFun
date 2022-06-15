@@ -296,7 +296,7 @@ HTML
         <div id="box-3">></div>
         <div class="clear"> </div>
 
-        
+
         </div>
     </body>
 </html>
@@ -320,7 +320,7 @@ CSS
 }
 
 .clear{
-    clear: both; *** the invisible division causes container div to extend to full size 
+    clear: both; *** the invisible division causes container div to extend to full size
 }
 
 
@@ -359,7 +359,7 @@ cleared elements (They do not collapse their top margins with their parent block
 
 INLINE AND BLOCK
 
- - Some elements allow other elements next to them and others take all the space next to them regardless of 
+ - Some elements allow other elements next to them and others take all the space next to them regardless of
  how much content they have.
 
  - The ones that take up all the space are called "block" and the ones that share the space are called "inline".
@@ -390,7 +390,7 @@ label, input {
 
 INLINE - BLOCK
 
--If you want to change the width and allow elements to be next to each other 
+-If you want to change the width and allow elements to be next to each other
 you can use "inline-block".
 
 h1, h2 {
@@ -415,7 +415,7 @@ p {
   margin: 10px;
 }
 
-- Ensure that the width of each individual column is narrow enough they will 
+- Ensure that the width of each individual column is narrow enough they will
 fit within their parent element. Often a div or body tage. Just applying inline-block won't
 ensure the elements are the size you want.
 HTML
@@ -437,3 +437,14 @@ p {
 - you need to use vertical-align property to make sure the behavior for inline-block doesn't mess up your work.
 
 -If you have elements that are traditionally inline and you want to change them to block elements, you can by using display:block
+
+CODE TO CHANGE COMPUTER NAME:
+<!-- ZSH_THEME="robbyrussell"
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' enable git svn
+zstyle ':vcs_info:git*' formats "- (%b) "
+precmd() {
+    vcs_info
+}
+setopt prompt_subst
+prompt='ashleyohayou@iMac : %~/ ${vcs_info_msg_0_}> ' -->
