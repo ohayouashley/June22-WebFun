@@ -1,0 +1,31 @@
+.container {
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: aliceblue;
+	display: flex;
+	/* display: flex; will take up on the width and the height. */
+	align-items: center;
+	/*align-items: center; will align all of your items to the center of the page.*/
+}
+
+.col {
+	background-color: antiquewhite;
+	padding: 10px;
+	width: 276px;
+}
+/*on your live server, use the inspect tool to check out to see how big your blocks are in comparison to the rest of the pixels on 
+your webpage.*/
+
+.col-2 {
+	font-size: 1.2rem;
+	background-color: lightcyan;
+}
+
+.col p,
+.col-2 p {
+	font-size: 1.2rem;
+}
+
+/* When you have separate divs and have spaces in between them in your actual HTML code, there will actually be 
+space between the divs. You have to remove the spaces in your code so that the margins will disappear. */

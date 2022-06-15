@@ -1,0 +1,9 @@
+<!-- ZSH_THEME="robbyrussell"
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' enable git svn
+zstyle ':vcs_info:git*' formats "- (%b) "
+precmd() {
+    vcs_info
+}
+setopt prompt_subst
+prompt='ashleyohayou@iMac : %~/ ${vcs_info_msg_0_}> ' -->
