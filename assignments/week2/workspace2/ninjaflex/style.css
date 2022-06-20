@@ -1,0 +1,9 @@
+#dojo {
+	width: 800px; /*I changed this from 400 to 600px because the red ninja was still small and wasn't being touched by align items.*/
+	height: 200px;
+	background-color: grey; /*starts off here with no other coded. Ninjas are in a row of three with the 4th spilling off.
+     Next step is to add display: flex; */
+	display: flex; /* Now they're all in a row at the top of the page but they're still off size */
+	align-items: center; /*this */
+	justify-content: space-between;
+}

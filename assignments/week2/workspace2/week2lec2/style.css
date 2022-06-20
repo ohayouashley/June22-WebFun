@@ -1,0 +1,64 @@
+/*
+Start
+1. body 
+    1. display-flex
+    2. 
+    3. align-items: center;
+    4. background-color: aquamarine;
+    5. flex-direction: column;
+
+2. main {
+    display: flex;
+    flex-direction: column;
+
+3. header 
+    
+*/
+
+body {
+	display: flex;
+	align-items: center;
+	background-color: #ffff;
+	flex-direction: column;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-items: center;
+}
+
+nav {
+	color: white;
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+}
+
+.img {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.octocats {
+	max-width: 250px;
+}
+
+footer {
+	color: white;
+}
