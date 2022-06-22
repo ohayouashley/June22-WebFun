@@ -89,3 +89,4 @@ line 25 crating a function called show data
 line 26creating a variable called name and telling it 
 line 28 is doing what? printing to the console the text in "" and the vales of name and location
 line 29 is creating an alert box on the html with a phrase that includes the values of name and location.
+*/
