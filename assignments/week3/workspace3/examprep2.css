@@ -1,0 +1,67 @@
+* {
+	border: 1px dotted red;
+}
+
+body {
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 95%;
+}
+
+.topRow {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: center; */
+	align-items: center;
+	width: 95%;
+	justify-content: space-between; /*Need to give a width for space-between to work*/
+}
+
+nav {
+	width: 15%;
+}
+
+.topHeader {
+	color: limegreen;
+	padding: 1em;
+}
+
+.bottomNav {
+	color: white;
+	padding: ;
+}
+
+.navButton,
+.mainButton {
+	background-color: lightgreen;
+	padding: 1em;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainButton {
+	padding: 1em 2em;
+	font-size: 1.2em;
+	display: block;
+	position: relative;
+	z-index: 3;
+	/* z-index positive numbers in front, negative behind. */
+	bottom: 25px;
+	left: 100px;
+}
