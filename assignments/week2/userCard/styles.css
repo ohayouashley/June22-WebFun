@@ -12,12 +12,14 @@ body {
 }
 
 .container {
+	background-color: #18a2b8;
 	max-width: 1200px;
-	width: 1100px;
+	width: 500px;
 	/* height: 500px; */
 	display: flex;
 	/* flex-direction: column; */
-	justify-content: space-around;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
 	margin: 0 auto; /*centers things well in the page*/
 }
@@ -35,4 +37,29 @@ body {
 h1 {
 	font-size: 20px;
 	margin-left: 10px;
+}
+
+p {
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.bio .bioicon {
+	width: 30px;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-top: 20px;
+}
+
+a {
+	font-size: 15px;
+}
+
+.bio {
+	background-color: white;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
 }
