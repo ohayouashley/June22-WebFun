@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 1px solid hotpink;
+}
+
+body {
+	background-color: white;
+	color: black;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-weight: lighter;
+}
+
+.container {
+	max-width: 1200px;
+	width: 1100px;
+	/* height: 500px; */
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto; /*centers things well in the page*/
+}
+
+.title img {
+	width: 95px;
+	border-radius: 100px;
+	border: 2px solid black;
+}
+
+.title {
+	width: 500px;
+}
+
+h1 {
+	font-size: 20px;
+	margin-left: 10px;
+}

@@ -47,12 +47,12 @@ addingNumbers(4,6,'three')
 
 Multiply a*b */
 
-function multiply(a, b) {
-	var c = a * b;
-	console.log("results:", c);
-}
+// function multiply(a, b) {
+// 	var c = a * b;
+// 	console.log("results:", c);
+// }
 
-multiply(a, b);
+// multiply(a, b);
 
 // Rule of thumb if when declaring a function with parameters invoking the function must also have parameters. If I declare parameters in the function, I must als
 // pass parameters when invoking the function.
@@ -89,4 +89,46 @@ line 25 crating a function called show data
 line 26creating a variable called name and telling it 
 line 28 is doing what? printing to the console the text in "" and the vales of name and location
 line 29 is creating an alert box on the html with a phrase that includes the values of name and location.
+*/
+
+/*
+
+LECTURE 2
+
+var lunch = "hamberger";
+console.log(***1a***, lunch);
+
+var lunch = "pizza";
+console.log
+
+var lunch = "tacos";
+console.log()
+
+var food
+
+var is mutable which means they can change.
+
+ARRAY::
+
+var cities = ["seattle", "log angeles", "tokyo", "kyoto"];
+
+console.log('arraylength:', cities.length)
+
+:::::
+
+:::PUSH POP SHIFT UNSHIFT:::
+
+push will always add to the end
+cities2.push
+
+pop will remove from the end
+cities2.pop
+
+shift removes something from the beginning
+cities2.shift
+
+unshift adds to the beginning
+cities2.unshift
+
+
 */
