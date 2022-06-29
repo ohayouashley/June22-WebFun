@@ -1,33 +1,101 @@
-* {
+/* * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	border: 1px dotted hotpink;
-}
+} */
 
 body {
 	font-family: "Courier New", Courier, monospace;
-	font-size: 1em;
 	line-height: 1.5;
 	color: black;
 	background-color: white;
 }
 
 .container {
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
 
-.navbar {
+.nav-title {
 	background-color: #cccccc;
 	color: black;
 	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.navbar .container .navitems {
+h1 {
+	font-size: 20px;
+}
+
+.searchBar {
+	display: flex;
+	font-style: italic;
+	padding: 5px;
+}
+
+a {
+	color: #2b78e4;
+}
+
+#login {
+	font-size: 15px;
+	border: 1px solid black;
+	box-shadow: 5px 5px black;
+	padding: 5px 20px;
+	background-color: #2b78e4;
+	color: white;
+	margin: 0 20px;
+}
+
+.col-1,
+.col-2 {
+	display: flex;
+	flex-direction: column;
+}
+
+h2 {
+	display: flex;
+	align-items: center;
+}
+
+.boxOneTwo {
+	background-color: white;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 600px;
+}
+
+.defText {
+	padding-right: 50px;
+}
+
+#likeButton {
+	background-color: #ffd966;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	border: 2px solid black;
+	padding: 5px 10px;
+	box-shadow: 2px 2px black;
+}
+
+.boxThree {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: center;
+}
+
+.buttonAddDef {
+	background-color: #94c47d;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	border: 2px solid black;
+	padding: 5px 10px;
+	margin: 10px;
+	box-shadow: 2px 2px black;
 }

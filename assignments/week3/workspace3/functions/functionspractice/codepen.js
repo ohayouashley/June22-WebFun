@@ -240,18 +240,18 @@ console.log(last);
 
 **************************
 
-// #2 Sum of all even numbers from 1-1000
+ #2 Sum of all even numbers from 1-1000
 
 function evenSum() {
-    var add = 0
-    for (var i = 1; i <= 1000; i++) { // How many times should i repeat this
+    var add = 2
+    for (var i = 2; i <= 1000; i++) { // How many times should i repeat this
         if (i % 2 == 0) { // number is even
             add = add + i
         }
     }
     return add
 }
-// console.log(evenSum()) // 250500
+console.log(evenSum()) // 250500
 
 // // #3 Sum of all odd numbers from 1-5000
 
