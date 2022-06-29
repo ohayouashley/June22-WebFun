@@ -1,40 +1,33 @@
 * {
-	padding: 0;
+	box-sizing: border-box;
 	margin: 0;
+	padding: 0;
 	border: 1px dotted hotpink;
 }
 
 body {
-	background-color: white;
 	font-family: "Courier New", Courier, monospace;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	font-size: 1em;
+	line-height: 1.5;
+	color: black;
+	background-color: white;
 }
 
 .container {
-	max-width: 1200px;
-	width: 1000px;
+	max-width: 900px;
 	margin: 0 auto;
-	padding: 15px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-evenly;
+	padding: 0 20px;
 }
 
-nav {
-	max-width: 1200px;
-	background-color: lightgray;
-	/* display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between; */
+.navbar {
+	background-color: #cccccc;
+	color: black;
+	height: 60px;
 }
 
-.nav-title {
+.navbar .container .navitems {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 }
