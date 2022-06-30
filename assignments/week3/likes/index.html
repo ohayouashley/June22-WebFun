@@ -29,8 +29,13 @@
 				<div class="box">
 					<div class="top">
 						<h4>Neil M</h4>
-						<p class="likes">likes</p>
-						<button class="likeBtn">Like</button>
+						<div class="incLike">
+							<p id="incrementText1">0</p>
+							<span>likes</span>
+						</div>
+						<button class="likeBtn" onclick="incrementLikes('incrementText1')">
+							Like
+						</button>
 					</div>
 					<p>
 						I just set up this new discord bot, let me know what you all think.
@@ -40,8 +45,13 @@
 				<div class="box">
 					<div class="top">
 						<h4>Nichole K</h4>
-						<p class="likes">likes</p>
-						<button class="likeBtn">Like</button>
+						<div class="incLike">
+							<p id="incrementText2">0</p>
+							<span>likes</span>
+						</div>
+						<button class="likeBtn" onclick="incrementLikes('incrementText2')">
+							Like
+						</button>
 					</div>
 					<p>
 						Just finished my <a href="index.html">next comic</a> check it out
@@ -50,8 +60,13 @@
 				<div class="box">
 					<div class="top">
 						<h4>Jim R</h4>
-						<p class="likes">likes</p>
-						<button class="likeBtn">Like</button>
+						<div class="incLike">
+							<p id="incrementText3">0</p>
+							<span>likes</span>
+						</div>
+						<button class="likeBtn" onclick="incrementLikes('incrementText3')">
+							Like
+						</button>
 					</div>
 					<p>
 						I can't stop listening to the
@@ -60,7 +75,6 @@
 				</div>
 			</div>
 		</div>
-
-		<scripts src="./scripts.js"></scripts>
+		<script src="./scripts.js"></script>
 	</body>
 </html>
