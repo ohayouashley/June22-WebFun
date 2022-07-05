@@ -1,0 +1,20 @@
+h1 {
+	color: hotpink;
+}
+
+/*
+
+publish through github
+
+github 
+
+1. click settings go to pages tab
+change from none to main and click save
+2. open link to address
+- you can add what you want, make changes, and as soon as you push something up to github it is there for you.
+
+, a href="(relative path) target="_blank">
+
+../../../index.html - means regardless of where it's deployed it will find it. it prefills it within it's own folder
+
+you can find it in deployment history on github 
